@@ -1,4 +1,7 @@
+import { ReactNode } from "react";
+
 export interface PropertyProps {
+  description: ReactNode;
   name: string;
   address: {
     state: string;
